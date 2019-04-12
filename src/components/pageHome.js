@@ -3,6 +3,9 @@ import ImageCentral from './ImageCentral';
 import Card from './Card';
 import anim from './images/image-anim.png'
 import pokes from './all.json'
+import Modal from './Modal';
+
+
 
 class Home extends Component {
     state = {
@@ -13,9 +16,11 @@ class Home extends Component {
         randomPokelove: false,
         firstTimer: 0,
         showFusion: false,
-        removePokeFusion: false
-        showModal: false
+        removePokeFusion: false,
+        show: false
     }
+
+
 
     resetState = () => {
         setTimeout(() => this.setState({ randomPokelove: !this.state.randomPokelove }), 2500)
@@ -75,6 +80,8 @@ class Home extends Component {
                 {this.handleAnimation()}
 
                 {this.handlePokeFusion()}
+
+                <Modal />
 
 
             </>
