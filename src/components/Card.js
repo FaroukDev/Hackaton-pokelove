@@ -8,6 +8,7 @@ const Card = (props) => {
   return (
     <>
       <div className="container_card">
+      <h1>Bienvenue sur Netlify</h1>
         <div className="pokemon">
           <div className="card">
             <img src={props.poke1.img} alt="Avatar" />
