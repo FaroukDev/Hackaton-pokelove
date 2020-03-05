@@ -12,8 +12,8 @@ const ImageCentral = (props) =>  {
             <img src="https://zupimages.net/up/19/15/8rgj.png" alt="logo"></img>
           </div>
           <h4 className="Connexion"> <Link to="/login">CONNEXION</Link></h4>
-          <img className="ImageCentral" src="https://image.noelshack.com/fichiers/2019/15/4/1554991425-image-pokelove.png" alt="fond d'ecran de pokelove "></img>
-        <img className="contenair-pokeball" onClick={props.handleChangePokemon} src="https://image.noelshack.com/fichiers/2019/15/4/1555012564-pokeball.gif" alt="pokeball selected" ></img>
+          <img className="ImageCentral" src="https://zupimages.net/viewer.php?id=20/10/3hle.jpg" alt="fond d'ecran de pokelove "></img>
+        <img className="contenair-pokeball" onClick={props.handleChangePokemon} src="https://gifimage.net/wp-content/uploads/2017/08/pokeball-gif-13.gif" alt="pokeball selected" ></img>
         <a href="http://images6.fanpop.com/image/photos/35900000/Pinkie-Pie-my-little-pony-friendship-is-magic-35939133-1600-1141.png">
           <img className="contenair-poney"  src="" alt=""></img>>
         </a>
