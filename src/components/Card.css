@@ -27,10 +27,16 @@
     font-size: 20px;
     color: black; 
     font-weight:bold;
-    background-color: gray;
+    
 
 }
 
+.card1 p, .card2 p{
+
+   background-color: gray;
+    
+
+}
 
   .card:hover, .card1:hover, .card2:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
